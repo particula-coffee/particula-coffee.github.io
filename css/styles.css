@@ -1,0 +1,74 @@
+body {
+  background: #caffbf;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.flare {
+  background: #ffffff;
+  border-bottom: 1px solid #afe5a4;
+}
+
+.jumbo {
+  height: 275px;
+}
+
+.logo {
+  position: relative;
+  /* width: 298px; */
+  /* height: 70px; */
+  margin: 100px auto 0 auto;
+}
+
+.logo img {
+  display: block;
+  /* max-width: 35%; */
+  /* max-height: 35%; */
+  margin: 0 auto;
+}
+
+.tagline {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.social {
+  margin-top: 2rem;
+}
+.social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.social a:hover {
+  background: rgba(152, 242, 133, 1);
+  color: rgba(0, 0, 0, 0.7);
+}
+.social a:active {
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1em;
+}
